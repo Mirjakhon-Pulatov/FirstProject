@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d81b5377-922a-4f7e-84ac-e24b9011e27b" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/RegisteredUserController.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/app/Http/Controllers/MessageController.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/app/Http/Controllers/PageController.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/app/Http/Controllers/ProfileController.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/app/Http/Controllers/ProjectController.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/resources/views/auth/layouts/app.blade.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/resources/views/auth/partials/create_project.blade.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/resources/views/user/layouts/master.blade.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/resources/views/user/partials/contact.blade.php" root0="SKIP_INSPECTION" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/resources/views/user/partials/navbar.blade.php" root0="SKIP_INSPECTION" root1="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2NMynmCeZ7ZeFmlB7Hy8VCX44OZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/OSPanel/domains/FirstProject&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.webide.settings.project.settings.php&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\PhpStorm 2022.3.3\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\OSPanel\domains\auth_practice\resources\views\profile" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d81b5377-922a-4f7e-84ac-e24b9011e27b" name="Changes" comment="" />
+      <created>1679488416064</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679488416064</updated>
+      <workItem from="1679488416854" duration="463000" />
+      <workItem from="1679488893337" duration="3894000" />
+      <workItem from="1679501129265" duration="3256000" />
+      <workItem from="1679544963246" duration="4330000" />
+      <workItem from="1679564903260" duration="1617000" />
+      <workItem from="1679584980616" duration="2527000" />
+      <workItem from="1679641564539" duration="5326000" />
+      <workItem from="1679651767262" duration="3593000" />
+      <workItem from="1679670018433" duration="9453000" />
+      <workItem from="1679731272844" duration="11482000" />
+      <workItem from="1679789282145" duration="4956000" />
+      <workItem from="1679880456237" duration="1779000" />
+      <workItem from="1679889813216" duration="2362000" />
+      <workItem from="1679894639138" duration="1000" />
+      <workItem from="1679894776249" duration="12000" />
+      <workItem from="1679902263124" duration="382000" />
+      <workItem from="1679905698001" duration="9470000" />
+      <workItem from="1679916528896" duration="3410000" />
+      <workItem from="1679977812257" duration="8459000" />
+      <workItem from="1679993554699" duration="12436000" />
+      <workItem from="1680049947449" duration="2325000" />
+      <workItem from="1680062093205" duration="9344000" />
+      <workItem from="1680083756549" duration="4378000" />
+      <workItem from="1680105528624" duration="4958000" />
+      <workItem from="1680136851259" duration="792000" />
+      <workItem from="1680137664584" duration="3943000" />
+      <workItem from="1680150890263" duration="15674000" />
+      <workItem from="1680194266618" duration="4111000" />
+      <workItem from="1680238849136" duration="6435000" />
+      <workItem from="1680251953349" duration="7483000" />
+      <workItem from="1680262156003" duration="887000" />
+      <workItem from="1680284647572" duration="8805000" />
+      <workItem from="1680323839672" duration="9485000" />
+      <workItem from="1680348565971" duration="1257000" />
+      <workItem from="1680454432009" duration="114000" />
+      <workItem from="1680497653226" duration="14187000" />
+      <workItem from="1680521314341" duration="3763000" />
+      <workItem from="1680667970955" duration="10000" />
+      <workItem from="1680757527864" duration="3193000" />
+      <workItem from="1680802293721" duration="358000" />
+      <workItem from="1680826871659" duration="10000" />
+      <workItem from="1681129952761" duration="181000" />
+      <workItem from="1681187176931" duration="859000" />
+      <workItem from="1696914880164" duration="1323000" />
+      <workItem from="1696917420110" duration="1712000" />
+      <workItem from="1696919570410" duration="438000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="javascript:npm:tailwindcss" />
+    <option featureType="dependencySupport" implementationName="javascript:npm:vite" />
+    <option featureType="dependencySupport" implementationName="javascript:npm:postcss" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
