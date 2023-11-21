@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\MessageController;
 use App\Http\Controllers\ProjectController;
+use App\Http\Controllers\BackupController;
 
 
 
@@ -26,7 +27,12 @@ Route::middleware(['auth', 'verified'])->prefix('admin')->group(function () {
 
     Route::get('/messages', [MessageController::class, 'messages'])->name('messages');
     Route::delete('/messages/delete/{id}', [MessageController::class, 'destroy'])->name('delete_message');
-
+//    for backups start
+    Route::get('/backup', [PageController::class, 'backups'])->name('backups');
+    Route::get('/export_database', [PageController::class, 'export_database'])->name('export_database');
+    Route::get('/download_backup/{name}', [PageController::class, 'download_database'])->name('download_database');
+    Route::delete('/delete_backup', [PageController::class, 'delete_backups'])->name('delete_backups');
+//    for backups end
     Route::resource('project', ProjectController::class);
 
     Route::get('/profile/edit/{id}', [ProfileController::class, 'edit'])->name('profile.edit');
