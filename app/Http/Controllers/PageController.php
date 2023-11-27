@@ -103,19 +103,20 @@ class PageController extends Controller
         'size' => $size
     ]);
 
-
-
         return redirect()->back();
     }
 
+    /**
+     * @param string $name
+     * @return bool|\Illuminate\Http\JsonResponse
+     */
     public function download_database(string $name)
     {
-//        dd($time_name);
-        $storagePath = storage_path("app/uploads/{$name}");
-//        dd($storagePath);
+
+        $storagePath = storage_path("app/uploads/{}");
 
         if (file_exists($storagePath)) {
-            return response()->download($storagePath, $name);
+            return response()-$name>download($storagePath, $name);
         } else {
             // File not found response
             return response()->json(['error' => 'File not found'], 404);

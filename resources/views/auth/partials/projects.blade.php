@@ -38,7 +38,7 @@
                                 <tr>
                                     <td style="text-align: center; vertical-align: middle">{{ $project->id }}</td>
                                     <td style="text-align: center; vertical-align: middle">
-                                        <img src="{{ asset('storage/' . $project->image) }}" alt="" style="width: 200px; height: 150px">
+                                        <img src="{{ asset('auth/uploads/project/' . $project->image) }}" alt="" style="width: 200px; height: 150px">
                                     </td>
                                     <td style="text-align: center; vertical-align: middle">{{ $project->name }}</td>
                                     <td style="text-align: center; vertical-align: middle">{{ $project->type }}</td>

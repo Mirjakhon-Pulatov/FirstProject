@@ -8,7 +8,7 @@
             <p class="display-5"><b class="text-primary">Описание проекта: </b>{{ $vproject->short_desc }}</p>
 
             <div class="img mt-4">
-                <img class="img-fluid" src="{{ asset('storage/' . $vproject->image) }}" alt="" style="width: 100%; height: 600px;">
+                <img class="img-fluid" src="{{ asset('auth/uploads/project/' . $vproject->image) }}" alt="" style="width: 100%; height: 600px;">
             </div>
 
             <div class="mt-4">

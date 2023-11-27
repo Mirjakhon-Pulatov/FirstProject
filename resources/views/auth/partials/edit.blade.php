@@ -83,7 +83,7 @@
                                     <label class="col-form-label col-lg-12"><b>Прикрепленные файлы:</b></label>
 
                                     <div class="col-lg-12 d-flex  flex-column">
-                                        <img src="{{ asset('/storage/' . $projects->image) }}" alt=""
+                                        <img src="{{ asset('auth/uploads/project/' . $projects->image) }}" alt=""
                                              style="width: 400px; height: 300px;">
                                         <label class="mt-4">
                                             <input type="file" class="form-control-file"
