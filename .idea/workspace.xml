@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d81b5377-922a-4f7e-84ac-e24b9011e27b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PageController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProjectController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProjectController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/partials/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/partials/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/partials/projects.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/partials/projects.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/user/partials/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/partials/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/user/partials/projects.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/partials/projects.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/user/partials/view.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/partials/view.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/app/public/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/logs/laravel.log" beforeDir="false" afterPath="$PROJECT_DIR$/storage/logs/laravel.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -143,7 +135,7 @@
       <workItem from="1700585965428" duration="2000" />
       <workItem from="1700593217883" duration="1213000" />
       <workItem from="1701085199970" duration="2069000" />
-      <workItem from="1701101068440" duration="1867000" />
+      <workItem from="1701101068440" duration="2224000" />
     </task>
     <servers />
   </component>

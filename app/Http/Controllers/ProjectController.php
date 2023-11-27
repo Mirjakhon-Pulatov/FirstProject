@@ -79,15 +79,10 @@ class ProjectController extends Controller
         $projects = Project::find($id);
         if ($request->hasFile('image'))
         {
-
-
             if (File::exists(public_path('auth/uploads/project/' . $projects->image)) == $projects->image)
             {
-                $path = public_path('auth/uploads/project/'.$projects->image);
-                unlink($path);
-                $file = $request->file('image');
-                $name = $file->getClientOriginalName();
-//                dd($name);
+                unlink(public_path('auth/uploads/project/'.$projects->image));
+                $name = $request->file('image')->getClientOriginalName();
             }else{
                 $name = $projects->image;
             }
@@ -100,7 +95,7 @@ class ProjectController extends Controller
             'link' => $request->input('link'),
             'link_title' => $request->input('link_title'),
             'long_desc' => $request->input('long_desc'),
-            'image' => $name
+            'image' => $name ?? $projects->image
         ]);
 
         return redirect()->route('project.index');
