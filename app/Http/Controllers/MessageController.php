@@ -24,8 +24,6 @@ class MessageController extends Controller
 
     public function messages()
     {
-        $user = User::first();
-        dd($user->name);
 
         $messages = Message::latest()->get();
 //        dd($messages);
