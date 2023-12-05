@@ -20,13 +20,13 @@
         <div class="container pt-5">
             <div class="row align-items-center">
                 <div class="col-md-5">
-                    <img style="width: 800px;"  class="img-fluid mb-lg-0" src="{{ asset('user/assets/img/img_1.jpg') }}" alt="">
+{{--                    <img style="width: 800px;"  class="img-fluid mb-lg-0" src="{{ asset('user/assets/img/img_1.jpg') }}" alt="">--}}
                 </div>
                 <div class="col-lg-6">
-                    <h1 class="display-4 text-uppercase mb-2">OOO Bizzone Group</h1>
-                    <p class="text-muted">ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ (ООО)</p>
-                    <h5 class="text-uppercase text-primary mb-3 p-0">Основная деятельность — компания, которая создает веб-сайты, мобильные приложения, CRM и ERP систем и десктопных приложений.</h5>
-                    <p class="mb-4 text-justify">Мы помогаем решать проблемы в сфере IT. От разработки программного обеспечения до любой сложности, мы создаем готовые приложения, информационные системы для предприятий и государственных учреждений, порталы, личные учетные записи и мобильные приложения.</p>
+{{--                    <h1 class="display-4 text-uppercase mb-2">OOO Bizzone Group</h1>--}}
+{{--                    <p class="text-muted">ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ (ООО)</p>--}}
+{{--                    <h5 class="text-uppercase text-primary mb-3 p-0">Основная деятельность — компания, которая создает веб-сайты, мобильные приложения, CRM и ERP систем и десктопных приложений.</h5>--}}
+{{--                    <p class="mb-4 text-justify">Мы помогаем решать проблемы в сфере IT. От разработки программного обеспечения до любой сложности, мы создаем готовые приложения, информационные системы для предприятий и государственных учреждений, порталы, личные учетные записи и мобильные приложения.</p>--}}
                 </div>
             </div>
         </div>

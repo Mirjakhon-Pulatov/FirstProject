@@ -4,7 +4,7 @@
          data-aos-duration="1500">
         <div class="col-lg-3 col-md-6 ">
             <a href="{{ route('index') }}" class="navbar-brand">
-                <h1 class="m-0 mt-n2 text-white display-4">Bizzone</h1>
+{{--                <h1 class="m-0 mt-n2 text-white display-4">Bizzone</h1>--}}
             </a>
             <p>При полном или частичном использовании материала, источник сайта должен быть указан.</p>
             <h6 class="text-uppercase text-white py-2">Mы в социальных сетях</h6>

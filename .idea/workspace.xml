@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d81b5377-922a-4f7e-84ac-e24b9011e27b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MessageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MessageController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PageController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProjectController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProjectController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/user/layouts/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/layouts/master.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/user/partials/about.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/partials/about.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/user/partials/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/partials/footer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/user/partials/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/partials/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/user/partials/navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/partials/navbar.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/logs/laravel.log" beforeDir="false" afterPath="$PROJECT_DIR$/storage/logs/laravel.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +64,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/OSPanel/domains/FirstProject&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/OSPanel/domains/Voyager&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -135,7 +144,10 @@
       <workItem from="1700585965428" duration="2000" />
       <workItem from="1700593217883" duration="1213000" />
       <workItem from="1701085199970" duration="2069000" />
-      <workItem from="1701101068440" duration="2224000" />
+      <workItem from="1701101068440" duration="3118000" />
+      <workItem from="1701145349071" duration="655000" />
+      <workItem from="1701338723790" duration="1178000" />
+      <workItem from="1701752776956" duration="2341000" />
     </task>
     <servers />
   </component>

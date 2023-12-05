@@ -11,7 +11,7 @@ use Illuminate\Support\Facades\Storage;
 class ProjectController extends Controller
 {
     /**
-     * Display a listing of the resource.
+     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View|\Illuminate\Foundation\Application
      */
     public function index()
     {
@@ -20,7 +20,7 @@ class ProjectController extends Controller
     }
 
     /**
-     * Show the form for creating a new resource.
+     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View|\Illuminate\Foundation\Application
      */
     public function create()
     {
@@ -28,7 +28,9 @@ class ProjectController extends Controller
     }
 
     /**
-     * Store a newly created resource in storage.
+     * @param Request $request
+     * @param Project $project
+     * @return \Illuminate\Http\RedirectResponse
      */
     public function store(Request $request, Project $project)
     {
@@ -54,7 +56,8 @@ class ProjectController extends Controller
     }
 
     /**
-     * Display the specified resource.
+     * @param string $id
+     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View|\Illuminate\Foundation\Application
      */
     public function show(string $id)
     {
@@ -63,7 +66,8 @@ class ProjectController extends Controller
     }
 
     /**
-     * Show the form for editing the specified resource.
+     * @param string $id
+     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View|\Illuminate\Foundation\Application
      */
     public function edit(string $id)
     {
@@ -72,7 +76,9 @@ class ProjectController extends Controller
     }
 
     /**
-     * Update the specified resource in storage.
+     * @param Request $request
+     * @param string $id
+     * @return \Illuminate\Http\RedirectResponse
      */
     public function update(Request $request, string $id)
     {
@@ -111,7 +117,6 @@ class ProjectController extends Controller
         $projects = Project::find($id);
             if (File::exists(public_path('auth/uploads/project/' . $projects->image)) == $projects->image)
             {
-
                 $path = public_path('auth/uploads/project/'.$projects->image);
                 unlink($path);
                 $projects->delete();
@@ -119,7 +124,7 @@ class ProjectController extends Controller
             else{
                 $projects->delete();
             }
-        return redirect()->route('project.index');
+        return  redirect()->route('project.index');
 
     }
 

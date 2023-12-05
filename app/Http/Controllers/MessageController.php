@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Message;
+use App\Models\User;
 use Illuminate\Http\Request;
 use RealRashid\SweetAlert\Facades\Alert;
 
@@ -23,6 +24,9 @@ class MessageController extends Controller
 
     public function messages()
     {
+        $user = User::first();
+        dd($user->name);
+
         $messages = Message::latest()->get();
 //        dd($messages);
         return view('auth.partials.messages', compact('messages'));

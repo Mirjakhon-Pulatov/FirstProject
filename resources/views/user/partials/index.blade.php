@@ -4,9 +4,9 @@
     <div class="container-fluid bg-primary py-5 px-0" style="margin-bottom: 90px;">
         <div class="row mx-0 align-items-center">
             <div class="col-lg-6 px-md-5 text-center text-lg-left">
-                <h1 class="display-2 text-uppercase mb-3" data-aos="fade-up" data-aos-duration="1500"> Bizzone group</h1>
-                <p class="text-dark mb-4 text-justify" data-aos="fade-up" data-aos-duration="1500"><b>OOO Bizzone Groupe</b> – IT-компания, которая занимается разработкой комплексных программных решений для автоматизации бизнес-процессов, информационных порталов и база данных.
-                    Мы можем разработать программный продукт для вашей компании, выполнить проект по цифровой трансформации бизнеса, создать мобильное приложение. За период своей работы мы успешно выполнили проекты для компаний из разных сфер бизнеса, от промышленности до медицины. Мы разработали решения, которые используют стоматологические клиники, образовательные учреждения и т.д.</p>
+{{--                <h1 class="display-2 text-uppercase mb-3" data-aos="fade-up" data-aos-duration="1500"> Bizzone group</h1>--}}
+{{--                <p class="text-dark mb-4 text-justify" data-aos="fade-up" data-aos-duration="1500"><b>OOO Bizzone Groupe</b> – IT-компания, которая занимается разработкой комплексных программных решений для автоматизации бизнес-процессов, информационных порталов и база данных.--}}
+{{--                    Мы можем разработать программный продукт для вашей компании, выполнить проект по цифровой трансформации бизнеса, создать мобильное приложение. За период своей работы мы успешно выполнили проекты для компаний из разных сфер бизнеса, от промышленности до медицины. Мы разработали решения, которые используют стоматологические клиники, образовательные учреждения и т.д.</p>--}}
             </div>
             <div class="col-lg-6 px-0 text-right" data-aos="fade-up" data-aos-duration="1500">
                 <img class="img-fluid mt-5 mt-lg-0" src="{{ asset('user/assets/img/header.png') }}" alt="">
@@ -25,7 +25,7 @@
                     <img style="width: 800px;"  class="img-fluid mb-lg-0" src="{{ asset('user/assets/img/img_1.jpg') }}" alt="">
                 </div>
                 <div class="col-lg-6">
-                    <h1 class="display-4 text-uppercase mb-2">OOO Bizzone Group</h1>
+{{--                    <h1 class="display-4 text-uppercase mb-2">OOO Bizzone Group</h1>--}}
                     <p class="text-muted ">ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ (ООО)</p>
                     <h5 class="text-uppercase text-primary mb-3 p-0">Основная деятельность — компания, которая создает веб-сайты, мобильные приложения, CRM и ERP систем и десктопных приложений.</h5>
                     <p class="mb-4 text-justify">Мы помогаем решать проблемы в сфере IT. От разработки программного обеспечения до любой сложности, мы создаем готовые приложения, информационные системы для предприятий и государственных учреждений, порталы, личные учетные записи и мобильные приложения.</p>

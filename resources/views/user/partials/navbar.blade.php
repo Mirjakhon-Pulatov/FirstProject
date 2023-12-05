@@ -2,7 +2,7 @@
 <div class="container-fluid bg-white position-relative" id="navbar">
     <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0" >
         <a href="{{ route('index') }}" class="navbar-brand text-secondary">
-            <img src="{{ asset('user/assets/img/Bizzone.png') }}" style="width: 250px; height: 100%" alt="">
+{{--            <img src="{{ asset('user/assets/img/Bizzone.png') }}" style="width: 250px; height: 100%" alt="">--}}
         </a>
         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>

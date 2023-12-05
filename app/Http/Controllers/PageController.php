@@ -112,11 +112,10 @@ class PageController extends Controller
      */
     public function download_database(string $name)
     {
-
-        $storagePath = storage_path("app/uploads/{}");
+        $storagePath = storage_path("app/uploads/{$name}");
 
         if (file_exists($storagePath)) {
-            return response()-$name>download($storagePath, $name);
+            return response()->download($storagePath, $name);
         } else {
             // File not found response
             return response()->json(['error' => 'File not found'], 404);
