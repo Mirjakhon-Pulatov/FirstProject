@@ -24,12 +24,13 @@
 
                                         <div>
                                             <h4 class="card-title">Информация профиля</h4>
-                                            <p class="card-title-desc">Обновите информацию профиля вашей учетной записи и адрес электронной почты.</p>
+                                            <p class="card-title-desc">Обновите информацию профиля вашей учетной записи
+                                                и адрес электронной почты.</p>
 
                                             <form action="{{route('profile.update', $user->id )}}" method="POST">
                                                 @csrf
                                                 @method('PATCH')
-                                                <div class="form-group row " >
+                                                <div class="form-group row ">
                                                     <label class=" col-form-label"><b>Имя</b></label>
                                                     <div class="col-md-12">
                                                         <input type="text" class="form-control" name="name"
@@ -48,7 +49,7 @@
                                                 <div class="row mt-4">
                                                     <div class="col-sm-6">
                                                         <div class="text-start">
-                                                            <button type="submit"  class="btn btn-success">
+                                                            <button type="submit" class="btn btn-success">
                                                                 <i class="fa-regular fa fa-floppy-disk"></i>
                                                                 Сохранить изменения
                                                             </button>
@@ -77,14 +78,18 @@
 
                                         <div>
                                             <h4 class="card-title">Обновить пароль</h4>
-                                            <p class="card-title-desc text-justify">Убедитесь, что в вашей учетной записи используется длинный случайный пароль, чтобы оставаться в безопасности.</p>
-                                            <form action="{{ route('profile.update_password', $user->id) }}" method="POST">
+                                            <p class="card-title-desc text-justify mb-1" style="margin-bottom: 0;">
+                                                Убедитесь, что в вашей учетной записи используется длинный случайный
+                                                пароль, чтобы оставаться в безопасности.</p>
+                                            <form action="{{ route('profile.update_password', $user->id) }}"
+                                                  method="POST">
                                                 @method('PATCH')
                                                 @csrf
                                                 <div class="form-group row">
                                                     <label class="col-form-label"><b>Текущий пароль</b></label>
                                                     <div class="col-md-12">
-                                                        <input required type="password" class="form-control" name="password" value="">
+                                                        <input required type="password" class="form-control"
+                                                               name="password" value="">
                                                     </div>
                                                 </div>
                                                 <div class="form-group row">
@@ -101,7 +106,59 @@
                                                     <div class="col-sm-6">
                                                         <div class="text-start">
                                                             <button type="submit" href="" class="btn btn-success">
-                                                                <i class="fa-regular fa fa-floppy-disk"></i> Сохранить изменения
+                                                                <i class="fa-regular fa fa-floppy-disk"></i> Сохранить
+                                                                изменения
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-9">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="tab-content" id="v-pills-tabContent">
+                                    <div class="tab-pane fade show active" id="v-pills-shipping" role="tabpanel"
+                                         aria-labelledby="v-pills-shipping-tab">
+
+                                        <div>
+                                            <h4 class="card-title">Добавить пользователь</h4>
+                                            <p class="card-title-desc text-justify mb-3" style="margin-bottom: 0;">Новый
+                                                добавленный пользователь будет иметь те же функции, что и
+                                                администратор</p>
+                                            <form action="{{ route('profile.add') }}" method="POST">
+                                                @method('POST')
+                                                @csrf
+                                                <div class="form-group row">
+                                                    <label class="col-form-label"><b>Эл. почта</b></label>
+                                                    <div class="col-md-12">
+                                                        <input required type="email" class="form-control"
+                                                               name="email" value="">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group row">
+                                                    <label for="billing-email-address" class="col-form-label">
+                                                        <b>Пароль</b>
+                                                    </label>
+                                                    <div class="col-md-12">
+                                                        <input required type="password" class="form-control"
+                                                               name="password">
+                                                    </div>
+                                                </div>
+                                                <div class="row mt-4">
+                                                    <div class="col-sm-6">
+                                                        <div class="text-start">
+                                                            <button type="submit" href="" class="btn btn-success">
+                                                                <i class="fa-regular fa fa-floppy-disk"></i> Добавить
                                                             </button>
                                                         </div>
                                                     </div>
@@ -128,19 +185,23 @@
                                         <div>
                                             <h4 class="card-title">Удалить аккаунта</h4>
                                             <p class="card-title-desc">Безвозвратно удалите свою учетную запись.</p>
-                                                <div class="form-group row mb-4 text-justify">
-                                                    <p class="text-justify">Как только ваша учетная запись будет удалена, все ее ресурсы и данные будут удалены безвозвратно. Прежде чем удалить свою учетную запись, пожалуйста, загрузите любые данные или информацию, которые вы хотите сохранить.</p>
-                                                    <div class="col-md-10 mt-2">
-                                                        <form action="{{ route('profile.destroy') }}" method="post">
-                                                            @csrf
-                                                            @method('DELETE')
-                                                            <button type="submit" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this item?');">
-                                                                <i class="fa-regular fa fa-trash-alt"></i>
-                                                                Удалить учетную запись
-                                                            </button>
-                                                        </form>
-                                                    </div>
+                                            <div class="form-group row mb-4 text-justify">
+                                                <p class="text-justify">Как только ваша учетная запись будет удалена,
+                                                    все ее ресурсы и данные будут удалены безвозвратно. Прежде чем
+                                                    удалить свою учетную запись, пожалуйста, загрузите любые данные или
+                                                    информацию, которые вы хотите сохранить.</p>
+                                                <div class="col-md-10 mt-2">
+                                                    <form action="{{ route('profile.destroy') }}" method="post">
+                                                        @csrf
+                                                        @method('DELETE')
+                                                        <button type="submit" class="btn btn-danger"
+                                                                onclick="return confirm('Are you sure you want to delete this item?');">
+                                                            <i class="fa-regular fa fa-trash-alt"></i>
+                                                            Удалить учетную запись
+                                                        </button>
+                                                    </form>
                                                 </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

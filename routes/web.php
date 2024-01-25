@@ -35,6 +35,7 @@ Route::middleware(['auth', 'verified'])->prefix('admin')->group(function () {
 //    for backups end
     Route::resource('project', ProjectController::class);
 
+    Route::post('/add_user', [ProfileController::class, 'add_user'])->name('profile.add');
     Route::get('/profile/edit/{id}', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile/update/{id}', [ProfileController::class, 'update'])->name('profile.update');
     Route::patch('/profile/password/update/{id}', [ProfileController::class, 'update_password'])->name('profile.update_password');

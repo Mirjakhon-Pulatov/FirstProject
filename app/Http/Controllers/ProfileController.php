@@ -17,25 +17,30 @@ use function Psy\sh;
 class ProfileController extends Controller
 {
 
-    public function edit(Request $request,$id): View
+    public function edit(Request $request, $id): View
     {
         $user = User::find($id);
 //        dd($user);
-        return view('auth.partials.profile',compact('user'));
+        return view('auth.partials.profile', compact('user'));
+    }
+
+    public function add_user(Request $request)
+    {
+//        dd($request->all());
+        $email = $request->input('email');
+        $password = $request->input('password');
+        $users = User::create([
+            'email' => $email,
+            'password' => Hash::make($password),
+        ]);
+        $users->save();
+        return redirect()->back();
     }
 
 
     public function update(Request $request, $id)
     {
-//        dd($id);
-////        $request->user()->fill($request->validated());
-//
-////        if ($request->user()->isDirty('email')) {
-////            $request->user()->email_verified_at = null;
-////        }
-//
         $user = User::find($id);
-//        dd($user);
         $user->name = $request->name;
         $user->email = $request->email;
         $user->update();
@@ -48,28 +53,24 @@ class ProfileController extends Controller
 
         return redirect('/login');
 
-//        dd($user);
     }
 
     public function update_password(Request $request, $id)
     {
         $user = User::find($id);
-        if ($user->password == Hash::make($request->password))
-        {
+        if ($user->password == Hash::make($request->password)) {
             dd("Pizdoshen shvayns");
-        }
-        else{
-//            dd(Hash::make($request->password));
-        $user->password = Hash::make($request->new_password);
-        $user->update();
+        } else {
+            $user->password = Hash::make($request->new_password);
+            $user->update();
 
-        Auth::guard('web')->logout();
+            Auth::guard('web')->logout();
 
-        $request->session()->invalidate();
+            $request->session()->invalidate();
 
-        $request->session()->regenerateToken();
+            $request->session()->regenerateToken();
 
-        return redirect(RouteServiceProvider::LOGIN);
+            return redirect(RouteServiceProvider::LOGIN);
         }
     }
 

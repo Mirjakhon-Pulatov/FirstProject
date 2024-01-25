@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d81b5377-922a-4f7e-84ac-e24b9011e27b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/user/partials/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/partials/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProfileController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProfileController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProjectController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProjectController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/partials/profile.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/partials/profile.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/partials/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/partials/sidebar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/logs/laravel.log" beforeDir="false" afterPath="$PROJECT_DIR$/storage/logs/laravel.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +56,9 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Notification.DisplayName-DoNotAsk-Plugin Update Results&quot;: &quot;Plugins installed or updated&quot;,
     &quot;Notification.DisplayName-DoNotAsk-Symfony Notifications&quot;: &quot;Symfony Notifications&quot;,
+    &quot;Notification.DoNotAsk-Plugin Update Results&quot;: &quot;true&quot;,
     &quot;Notification.DoNotAsk-Symfony Notifications&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -70,6 +79,13 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\OSPanel\domains\auth_practice\resources\views\profile" />
     </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-php-predefined-ba97393d7c68-b4dcf6bb9de9-com.jetbrains.php.sharedIndexes-PS-233.13135.108" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -139,6 +155,12 @@
       <workItem from="1701145349071" duration="655000" />
       <workItem from="1701338723790" duration="1178000" />
       <workItem from="1701752776956" duration="3128000" />
+      <workItem from="1701756837196" duration="686000" />
+      <workItem from="1701790412753" duration="38000" />
+      <workItem from="1705251186269" duration="455000" />
+      <workItem from="1705251654325" duration="2031000" />
+      <workItem from="1705294114285" duration="10000" />
+      <workItem from="1706157244106" duration="1566000" />
     </task>
     <servers />
   </component>

@@ -46,6 +46,7 @@
                     <ul class="sub-menu" aria-expanded="false">
                         <li><a href="{{ route('profile.edit',Auth::user()->id)}}" key="t-profile">Профиль</a></li>
                     </ul>
+
                 </li>
 
                 <li>
